@@ -1,16 +1,25 @@
-VeriJob
+VeriJob 🚀
 
-VeriJob is a web-based platform that detects fake job postings and analyzes resumes for better alignment with job requirements using machine learning.
 
-🔹 Features
 
-Fake Job Detection – Identify suspicious or fraudulent job postings.
+VeriJob is a web platform that helps users:
 
-Resume Analysis – Evaluate how well a resume matches a job description and get skill gap suggestions.
+1️⃣ Detect fake job postings using machine learning
 
-Responsive Design – Works seamlessly on desktop and mobile browsers.
+2️⃣ Analyze resumes to see how well they match a job description
 
-Real-Time Feedback – Instant results from ML-powered predictions.
+It combines a React frontend with a Node.js/Express backend for a complete web application experience.
+
+✨ Features
+
+🔍 Fake Job Detection – Identify suspicious or fraudulent job postings
+
+📄 Resume Analysis – Evaluate resumes for skill matching and improvement suggestions
+
+📱 Responsive Design – Works seamlessly on desktop and mobile
+
+⚡ Real-Time Feedback – Instant ML-powered results
+
 
 🛠 Tech Stack
 
@@ -123,3 +132,8 @@ Bash
 git commit -m "Add new feature"
 
 Push to your branch and open a pull request
+
+🧑‍💻 Author
+Abinaya
+
+⭐ If you like this project, consider giving it a star on GitHub! ⭐
