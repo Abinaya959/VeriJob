@@ -57,68 +57,82 @@ Seamless experience across desktop and mobile devices.
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Abinaya959/VeriJob.git
-cd VeriJob
-2️⃣ Frontend Setup
-cd client
-npm install
-npm run dev
-3️⃣ Backend Setup
-cd ../server
-npm install
-npm run dev   # or: node index.ts
-🔑 Environment Variables
-Frontend (client/.env)
-REACT_APP_API_URL=http://localhost:5000
-Backend (server/.env)
-PORT=5000
-UPLOAD_FOLDER=uploads
-📁 Project Structure
-VeriJob/
-├── client/          # React frontend
-│   ├── src/
-│   └── package.json
-│
-├── server/          # Node.js backend
-│   ├── index.ts
-│   └── package.json
-│
-├── .gitignore
-└── README.md
-🚀 How to Use
+    git clone https://github.com/Abinaya959/VeriJob.git
+    cd VeriJob
 
-Start both frontend and backend servers
+### 2️⃣ Frontend Setup
+    cd client
+    npm install
+    npm run dev
 
-Open your browser at:
-http://localhost:5000
+### 3️⃣ Backend Setup
+    cd ../server
+    npm install
+    npm run dev   # or: node index.ts
 
-Paste a job description to detect fake jobs
+---
 
-Upload your resume for analysis and suggestions
+## 🔑 Environment Variables
 
-🤝 Contributing
+### Frontend (client/.env)
+    REACT_APP_API_URL=http://localhost:5000
+
+### Backend (server/.env)
+    PORT=5000
+    UPLOAD_FOLDER=uploads
+
+---
+
+## 📁 Project Structure
+
+    VeriJob/
+    ├── client/          # React frontend
+    │   ├── src/
+    │   └── package.json
+    │
+    ├── server/          # Node.js backend
+    │   ├── index.ts
+    │   └── package.json
+    │
+    ├── .gitignore
+    └── README.md
+
+---
+
+## 🚀 How to Use
+
+- Start both frontend and backend servers  
+- Open your browser at: http://localhost:5000  
+- Paste a job description to detect fake jobs  
+- Upload your resume for analysis and suggestions  
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
-# Fork the repository
+    # Fork the repository
 
-# Create a new branch
-git checkout -b feature-name
+    # Create a new branch
+    git checkout -b feature-name
 
-# Commit changes
-git commit -m "Add new feature"
+    # Commit changes
+    git commit -m "Add new feature"
 
-# Push to GitHub
-git push origin feature-name
+    # Push to GitHub
+    git push origin feature-name
 
 Then open a Pull Request 🚀
 
-🧑‍💻 Author
+---
 
-Abinaya
+## 🧑‍💻 Author
 
-⭐ Support
+**Abinaya**
+
+---
+
+## ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub!
-
