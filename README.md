@@ -1,64 +1,63 @@
-🚀 VeriJob
+<h1 align="center">🚀 VeriJob</h1>
+
+<p align="center">
+  <b>Smart Job Verification & Resume Analysis Platform</b>
+</p>
+
+---
+
+## 💡 Overview
 
 VeriJob is a smart web platform designed to make job searching safer and more effective. It helps users detect fake job postings and evaluate how well their resumes match job descriptions using machine learning.
 
-✨ Features
-🔍 Fake Job Detection
+---
 
+## ✨ Features
+
+### 🔍 Fake Job Detection
 Identify suspicious or fraudulent job postings using ML-based text analysis.
 
-📄 Resume Analysis
-
+### 📄 Resume Analysis
 Upload your resume and get insights on:
+- Skill matching  
+- Relevance to job descriptions  
+- Suggestions for improvement  
 
-Skill matching
-
-Relevance to job descriptions
-
-Suggestions for improvement
-
-⚡ Real-Time Feedback
-
+### ⚡ Real-Time Feedback
 Get instant results powered by machine learning models.
 
-📱 Responsive Design
-
+### 📱 Responsive Design
 Seamless experience across desktop and mobile devices.
 
-🛠 Tech Stack
+---
 
-Frontend
+## 🛠 Tech Stack
 
-React
+### Frontend
+- React  
+- TypeScript  
+- Vite  
 
-TypeScript
+### Backend
+- Node.js  
+- Express  
+- TypeScript  
 
-Vite
+### Machine Learning
+- Text Classification  
+- Similarity Analysis  
 
-Backend
+### Other
+- HTML5  
+- CSS3  
+- JavaScript  
 
-Node.js
+---
 
-Express
+## ⚙️ Installation
 
-TypeScript
-
-Machine Learning
-
-Text Classification
-
-Similarity Analysis
-
-Other
-
-HTML5
-
-CSS3
-
-JavaScript
-
-⚙️ Installation
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Abinaya959/VeriJob.git
 cd VeriJob
 2️⃣ Frontend Setup
@@ -87,12 +86,11 @@ VeriJob/
 │
 ├── .gitignore
 └── README.md
-💡 How to Use
+🚀 How to Use
 
 Start both frontend and backend servers
 
 Open your browser at:
-
 http://localhost:5000
 
 Paste a job description to detect fake jobs
@@ -123,3 +121,4 @@ Abinaya
 ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub!
+
