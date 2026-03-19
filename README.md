@@ -1,108 +1,80 @@
-<h1 align="center">🚀 VeriJob</h1>
+🚀 VeriJob
 
-<p align="center">
-  <b>Smart Job Verification & Resume Analysis Platform</b>
-</p>
+VeriJob is a smart web platform designed to make job searching safer and more effective. It helps users detect fake job postings and evaluate how well their resumes match job descriptions using machine learning.
 
-<p align="center">
-  Detect fake job postings • Analyze resumes • Improve job success rate
-</p>
+✨ Features
+🔍 Fake Job Detection
 
-<p align="center">
-  <a href="https://github.com/Abinaya959/VeriJob">
-    <img src="https://img.shields.io/github/stars/Abinaya959/VeriJob?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/Abinaya959/VeriJob/network">
-    <img src="https://img.shields.io/github/forks/Abinaya959/VeriJob?style=for-the-badge" />
-  </a>
-  <a href="https://github.com/Abinaya959/VeriJob/issues">
-    <img src="https://img.shields.io/github/issues/Abinaya959/VeriJob?style=for-the-badge" />
-  </a>
-</p>
+Identify suspicious or fraudulent job postings using ML-based text analysis.
 
-<p align="center">
-  <a href="#features"><b>Features</b></a> •
-  <a href="#tech-stack"><b>Tech Stack</b></a> •
-  <a href="#installation-and-setup"><b>Setup</b></a> •
-  <a href="#usage"><b>Usage</b></a>
-</p>
+📄 Resume Analysis
 
----
+Upload your resume and get insights on:
 
-## 💡 Overview
+Skill matching
 
-VeriJob is an intelligent web application that helps users identify fraudulent job postings and evaluate how well their resumes match job descriptions. It uses machine learning techniques to provide real-time insights and actionable suggestions, making the job search process safer and more effective.
+Relevance to job descriptions
 
----
+Suggestions for improvement
 
-## ✨ Features
+⚡ Real-Time Feedback
 
-### 🔍 Fake Job Detection  
-Detects suspicious or fraudulent job postings using machine learning-based text classification.
+Get instant results powered by machine learning models.
 
-### 📄 Resume Analysis  
-Analyzes resumes against job descriptions to:
-- Measure skill compatibility  
-- Highlight missing skills  
-- Provide improvement suggestions  
+📱 Responsive Design
 
-### ⚡ Real-Time Feedback  
-Instant analysis results powered by ML models.
+Seamless experience across desktop and mobile devices.
 
-### 📱 Responsive Design  
-Fully responsive interface for both desktop and mobile users.
+🛠 Tech Stack
 
----
+Frontend
 
-## 🛠 Tech Stack
+React
 
-**Frontend**
-- React  
-- TypeScript  
-- Vite  
+TypeScript
 
-**Backend**
-- Node.js  
-- Express  
-- TypeScript  
+Vite
 
-**Machine Learning**
-- Text Classification  
-- Similarity Analysis  
+Backend
 
-**Other**
-- HTML5  
-- CSS3  
-- JavaScript  
+Node.js
 
----
+Express
 
-## ⚙️ Installation and Setup
+TypeScript
 
-### 1. Clone the Repository
-```bash
+Machine Learning
+
+Text Classification
+
+Similarity Analysis
+
+Other
+
+HTML5
+
+CSS3
+
+JavaScript
+
+⚙️ Installation
+1️⃣ Clone the Repository
 git clone https://github.com/Abinaya959/VeriJob.git
 cd VeriJob
-
-### 2. Frontend Setup
-```bash
+2️⃣ Frontend Setup
 cd client
 npm install
 npm run dev
-
-### 3. Backend Setup
-```bash
+3️⃣ Backend Setup
 cd ../server
 npm install
-npm run dev
-
+npm run dev   # or: node index.ts
 🔑 Environment Variables
 Frontend (client/.env)
 REACT_APP_API_URL=http://localhost:5000
 Backend (server/.env)
 PORT=5000
 UPLOAD_FOLDER=uploads
-
 📁 Project Structure
 VeriJob/
 ├── client/          # React frontend
@@ -115,34 +87,34 @@ VeriJob/
 │
 ├── .gitignore
 └── README.md
-🚀 Usage
+💡 How to Use
 
 Start both frontend and backend servers
 
-Open your browser and go to:
+Open your browser at:
+
 http://localhost:5000
 
-Paste a job description to detect fake job postings
+Paste a job description to detect fake jobs
 
-Upload a resume to analyze skill matching and get suggestions
+Upload your resume for analysis and suggestions
 
 🤝 Contributing
 
-Fork the repository
+Contributions are welcome!
 
-Create a new branch
+# Fork the repository
 
+# Create a new branch
 git checkout -b feature-name
 
-Commit your changes
-
+# Commit changes
 git commit -m "Add new feature"
 
-Push to your branch
-
+# Push to GitHub
 git push origin feature-name
 
-Open a Pull Request
+Then open a Pull Request 🚀
 
 🧑‍💻 Author
 
@@ -150,4 +122,4 @@ Abinaya
 
 ⭐ Support
 
-If you found this project useful, consider giving it a star on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub!
